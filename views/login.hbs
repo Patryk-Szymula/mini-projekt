@@ -1,0 +1,11 @@
+{{#if loginSuccess}}
+<p>Aby się zalogować wpisz właściwy login i hasło:</p>
+{{else}}
+<p>Nieprawidłowy login i hasło! Spróbuj ponownie:</p>
+{{/if}}
+
+<form action="/handleLogin" method="POST">
+    login: <input type="text" name="login" required><br>
+    password: <input type="password" name="password" required><br>
+    <input type="submit" value="Login">
+</form>

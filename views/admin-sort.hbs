@@ -1,0 +1,13 @@
+<form onchange="this.submit()" method="POST" action="/admin/sort">
+    <input type="radio" value="up" name="sort" {{sortup}}>rosnąco
+    <input type="radio" value="down" name="sort" {{sortdown}}>malejąco
+</form>
+<table>
+    {{#each users}}
+        <tr>
+            <td>id: {{id}}</td>
+            <td>user: {{login}} - {{password}}</td>
+            <td>wiek: {{wiek}}</td>
+        </tr>
+    {{/each}}
+</table>

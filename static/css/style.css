@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}
+ul{
+    margin: auto;
+    list-style-type: none;
+}
+li{
+    float: left;
+    display: inline;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+td{
+    border: solid 1px;
+}
+table{
+    margin: 20px;
+    width: 80vw;
+}
+form{
+    margin: 5px;
+}
+input{
+    margin: 5px;
+}
+.srodek{
+    margin: 0 auto;
+}
