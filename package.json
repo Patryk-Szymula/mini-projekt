@@ -7,6 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Patryk Szymula",
+  "author": "Patryk Szymula 3I2",
   "license": "ISC"
 }
